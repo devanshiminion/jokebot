@@ -1,0 +1,76 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "6c281b11-5fd8-49bf-bf5e-cc14a0e9c5d4": {
+        "id": "6c281b11-5fd8-49bf-bf5e-cc14a0e9c5d4",
+        "parent": null,
+        "name": "jokebot.py",
+        "type": "PYTHON_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "jokebot.py",
+        "cursor": {
+          "lineNumber": 1,
+          "column": 29
+        },
+        "config": {
+          "runtime": "python3.8",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": [],
+        "testCases": {
+          "0b19be6b-0956-43f9-afe7-6f8e292752a4": {
+            "id": "0b19be6b-0956-43f9-afe7-6f8e292752a4",
+            "name": "Test event",
+            "functionId": "6c281b11-5fd8-49bf-bf5e-cc14a0e9c5d4",
+            "event": "{\n    \"key1\": \"value1\",\n    \"key2\": \"value2\",\n    \"key3\": \"value3\"\n}",
+            "eventTemplate": "hello-world"
+          }
+        }
+      }
+    },
+    "openFiles": [
+      "6c281b11-5fd8-49bf-bf5e-cc14a0e9c5d4"
+    ],
+    "currentFileId": "6c281b11-5fd8-49bf-bf5e-cc14a0e9c5d4",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "jokebot",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1585300426708
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "jokebot",
+      "url": "https://github.com/devanshiminion/jokebot"
+    }
+  }
+}
