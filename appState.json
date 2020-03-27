@@ -11,8 +11,8 @@
         "isRemovable": true,
         "filePath": "jokebot.py",
         "cursor": {
-          "lineNumber": 1,
-          "column": 29
+          "lineNumber": 73,
+          "column": 30
         },
         "config": {
           "runtime": "python3.8",
@@ -27,14 +27,51 @@
             "id": "0b19be6b-0956-43f9-afe7-6f8e292752a4",
             "name": "Test event",
             "functionId": "6c281b11-5fd8-49bf-bf5e-cc14a0e9c5d4",
+            "event": "{\n\t\"version\": \"1.0\",\n\t\"session\": {\n\t\t\"new\": true,\n\t\t\"sessionId\": \"amzn1.echo-api.session.cf3734b4-0fa4-4a1d-a537-b8b433ea09c5\",\n\t\t\"application\": {\n\t\t\t\"applicationId\": \"amzn1.ask.skill.fec3b96b-215b-4e64-adc1-a88d83db6607\"\n\t\t},\n\t\t\"user\": {\n\t\t\t\"userId\": \"amzn1.ask.account.AEXS3VCXAN5J3WSMXBW2BCBWMMXTGOA246RBTP7WFWOQ6YZLORAC5QIMLKTUDE3GY32LRD4IPGGYRKHSWT4OGRX4Y2DXTZ5TE4UNQ7BWFEF45K6LJ2KK2YKNQWU3B33MERL5DVA7OWKFNBCA2Q4BQXQ3QOQFHSWIIP7BUUMX6HTNH6ATYHJGWQMVPDKRTXPFQZOF47DBKXAOSDI\"\n\t\t}\n\t},\n\t\"context\": {\n\t\t\"System\": {\n\t\t\t\"application\": {\n\t\t\t\t\"applicationId\": \"amzn1.ask.skill.fec3b96b-215b-4e64-adc1-a88d83db6607\"\n\t\t\t},\n\t\t\t\"user\": {\n\t\t\t\t\"userId\": \"amzn1.ask.account.AEXS3VCXAN5J3WSMXBW2BCBWMMXTGOA246RBTP7WFWOQ6YZLORAC5QIMLKTUDE3GY32LRD4IPGGYRKHSWT4OGRX4Y2DXTZ5TE4UNQ7BWFEF45K6LJ2KK2YKNQWU3B33MERL5DVA7OWKFNBCA2Q4BQXQ3QOQFHSWIIP7BUUMX6HTNH6ATYHJGWQMVPDKRTXPFQZOF47DBKXAOSDI\"\n\t\t\t},\n\t\t\t\"device\": {\n\t\t\t\t\"deviceId\": \"amzn1.ask.device.AHTHLNCXXACJNDBVU3Q33FHSLTIQTPT6AIECZOHSJNIEKRCM324MDYM7C2PLASVQ7IF3EIAC4QVTJUS3CXTAAVK5XCFSV4SWV2RYZVZBQZE3FFWH5M5LSXB4SHTPM3BS4GEBR44NZ3IKGD4FQON6QRIGPAUJQGQI6HNMVCVHZXF6RJHGE6DHK\",\n\t\t\t\t\"supportedInterfaces\": {}\n\t\t\t},\n\t\t\t\"apiEndpoint\": \"https://api.amazonalexa.com\",\n\t\t\t\"apiAccessToken\": \"eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjEifQ.eyJhdWQiOiJodHRwczovL2FwaS5hbWF6b25hbGV4YS5jb20iLCJpc3MiOiJBbGV4YVNraWxsS2l0Iiwic3ViIjoiYW16bjEuYXNrLnNraWxsLmZlYzNiOTZiLTIxNWItNGU2NC1hZGMxLWE4OGQ4M2RiNjYwNyIsImV4cCI6MTU4NTMwNTUyMywiaWF0IjoxNTg1MzA1MjIzLCJuYmYiOjE1ODUzMDUyMjMsInByaXZhdGVDbGFpbXMiOnsiY29udGV4dCI6IkFBQUFBQUFBQUFDL1QwcFVrWDJHcGNndllQWC84K0s3S3dFQUFBQUFBQURkQWZ0d3htdEN1ZWplY1NubkZmRWUvS25OWjJBaGxSLzVpWGZzc3NqK2QybXJxZUNrZFQyTUlibVdxMXoxVHNWdGZrVG1mUzM1Zm1zZkJZWk1haTdHRzZsN0w4enNEbmVtcm1IYjBFa0NZdkhKMlVhRUx5STZIRGI4a29HOG9EaTJKNEYrT2xRUlY2WkNhc0RqbnNmSytDeDUzVFZKdFNEUExEZm9OeE1uOWVYMkNKMjJJTzViditydFZZd2o1cHNRYWIvd2g2Sy9NWUtPTUhjWTZ2VEdjbHJXTUdCRTc5SlRFT2NhcGRPek1DcWdQRkxKSlU3ZVlaYllxK0d0Q3dXRDNUOGNnMHdWaitqZTFseTRzSGIwTnlJUmsxNXNVU2JIclBrbEVIclhUVVpOVWF3dlBveitFMDA3YVlDRUhWMWVsT1oxUHZpdDRKSDdZUmhJLzNFS1JnZHJIZndLejhhSVZleTJpRUFsRmhVRzhwQ1NYU2hhNGt0MWF6UVhqd3BQSERHRFp0UVdwVW1mdkE9PSIsImNvbnNlbnRUb2tlbiI6bnVsbCwiZGV2aWNlSWQiOiJhbXpuMS5hc2suZGV2aWNlLkFIVEhMTkNYWEFDSk5EQlZVM1EzM0ZIU0xUSVFUUFQ2QUlFQ1pPSFNKTklFS1JDTTMyNE1EWU03QzJQTEFTVlE3SUYzRUlBQzRRVlRKVVMzQ1hUQUFWSzVYQ0ZTVjRTV1YyUllaVlpCUVpFM0ZGV0g1TTVMU1hCNFNIVFBNM0JTNEdFQlI0NE5aM0lLR0Q0RlFPTjZRUklHUEFVSlFHUUk2SE5NVkNWSFpYRjZSSkhHRTZESEsiLCJ1c2VySWQiOiJhbXpuMS5hc2suYWNjb3VudC5BRVhTM1ZDWEFONUozV1NNWEJXMkJDQldNTVhUR09BMjQ2UkJUUDdXRldPUTZZWkxPUkFDNVFJTUxLVFVERTNHWTMyTFJENElQR0dZUktIU1dUNE9HUlg0WTJEWFRaNVRFNFVOUTdCV0ZFRjQ1SzZMSjJLSzJZS05RV1UzQjMzTUVSTDVEVkE3T1dLRk5CQ0EyUTRCUVhRM1FPUUZIU1dJSVA3QlVVTVg2SFROSDZBVFlISkdXUU1WUERLUlRYUEZRWk9GNDdEQktYQU9TREkifX0.WEQlomej2zxzk4TdvihDWJyXhc2ShkgbkWIbyf-h8NoSsjAb-hlzE4ROsxSpzVgtFpHmC_D-kkf4nN626RSMbJbR8Rt2K3-cIiVO7krlEjbGouPifbtB15UTiuDlipiGgcNsiRHw-pmesVUAg25adExhEziy_6zyibzElO0QqK_uo46t4wleEo4igPoyt52dTccFxkjxC4TLTxvi7YCMcpYVaa6LtyoPhpUsdHpNRfFBgmlwuhPqBwOWSsPWBWvjBABdHkFZowKZgIXDYd6S-urPhyc3XB5sQToz8mv89635UJ3h08u2SjrX4VtKjRLrxNxXHVAgwkpbn-rVY3uwAA\"\n\t\t},\n\t\t\"Viewport\": {\n\t\t\t\"experiences\": [\n\t\t\t\t{\n\t\t\t\t\t\"arcMinuteWidth\": 246,\n\t\t\t\t\t\"arcMinuteHeight\": 144,\n\t\t\t\t\t\"canRotate\": false,\n\t\t\t\t\t\"canResize\": false\n\t\t\t\t}\n\t\t\t],\n\t\t\t\"shape\": \"RECTANGLE\",\n\t\t\t\"pixelWidth\": 1024,\n\t\t\t\"pixelHeight\": 600,\n\t\t\t\"dpi\": 160,\n\t\t\t\"currentPixelWidth\": 1024,\n\t\t\t\"currentPixelHeight\": 600,\n\t\t\t\"touch\": [\n\t\t\t\t\"SINGLE\"\n\t\t\t],\n\t\t\t\"video\": {\n\t\t\t\t\"codecs\": [\n\t\t\t\t\t\"H_264_42\",\n\t\t\t\t\t\"H_264_41\"\n\t\t\t\t]\n\t\t\t}\n\t\t},\n\t\t\"Viewports\": [\n\t\t\t{\n\t\t\t\t\"type\": \"APL\",\n\t\t\t\t\"id\": \"main\",\n\t\t\t\t\"shape\": \"RECTANGLE\",\n\t\t\t\t\"dpi\": 160,\n\t\t\t\t\"presentationType\": \"STANDARD\",\n\t\t\t\t\"canRotate\": false,\n\t\t\t\t\"configuration\": {\n\t\t\t\t\t\"current\": {\n\t\t\t\t\t\t\"video\": {\n\t\t\t\t\t\t\t\"codecs\": [\n\t\t\t\t\t\t\t\t\"H_264_42\",\n\t\t\t\t\t\t\t\t\"H_264_41\"\n\t\t\t\t\t\t\t]\n\t\t\t\t\t\t},\n\t\t\t\t\t\t\"size\": {\n\t\t\t\t\t\t\t\"type\": \"DISCRETE\",\n\t\t\t\t\t\t\t\"pixelWidth\": 1024,\n\t\t\t\t\t\t\t\"pixelHeight\": 600\n\t\t\t\t\t\t}\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t}\n\t\t]\n\t},\n\t\"request\": {\n\t\t\"type\": \"LaunchRequest\",\n\t\t\"requestId\": \"amzn1.echo-api.request.0ae5b868-f4fb-4c33-ba1f-5d7d0bdc9253\",\n\t\t\"timestamp\": \"2020-03-27T10:33:43Z\",\n\t\t\"locale\": \"en-US\",\n\t\t\"shouldLinkResultBeReturned\": false\n\t}\n}",
+            "eventTemplate": "hello-world"
+          },
+          "a987fd02-08e6-47b8-9b1b-0c21629026ff": {
+            "id": "a987fd02-08e6-47b8-9b1b-0c21629026ff",
+            "name": "Test event",
+            "functionId": "6c281b11-5fd8-49bf-bf5e-cc14a0e9c5d4",
             "event": "{\n    \"key1\": \"value1\",\n    \"key2\": \"value2\",\n    \"key3\": \"value3\"\n}",
+            "eventTemplate": "hello-world"
+          },
+          "92bd5b31-298d-4ff5-9d78-85b205f20d39": {
+            "id": "92bd5b31-298d-4ff5-9d78-85b205f20d39",
+            "name": "Test event",
+            "functionId": "6c281b11-5fd8-49bf-bf5e-cc14a0e9c5d4",
+            "event": "",
             "eventTemplate": "hello-world"
           }
         }
+      },
+      "19ed3346-81c6-461d-9a30-9bc8f7585e60": {
+        "id": "19ed3346-81c6-461d-9a30-9bc8f7585e60",
+        "parent": null,
+        "name": "test.py",
+        "type": "PYTHON_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "test.py",
+        "cursor": {
+          "lineNumber": 1,
+          "column": 1
+        },
+        "config": {
+          "runtime": "python3.8",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
       }
     },
     "openFiles": [
-      "6c281b11-5fd8-49bf-bf5e-cc14a0e9c5d4"
+      "6c281b11-5fd8-49bf-bf5e-cc14a0e9c5d4",
+      "19ed3346-81c6-461d-9a30-9bc8f7585e60"
     ],
     "currentFileId": "6c281b11-5fd8-49bf-bf5e-cc14a0e9c5d4",
     "resources": {},
@@ -53,7 +90,14 @@
       }
     ],
     "packageJSON": {
-      "dependencies": {}
+      "dependencies": {
+        "ask-sdk-core": {
+          "name": "ask-sdk-core",
+          "version": "1.13.0",
+          "dev": false,
+          "language": "python"
+        }
+      }
     }
   },
   "PROJECT_META": {
@@ -64,7 +108,7 @@
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1585300426708
+    "lastSave": 1585305333878
   },
   "VCS_STATE": {
     "provider": "GitHub",
