@@ -41,6 +41,8 @@ class LaunchRequestHandler(AbstractRequestHandler):
         "If you shouldn't eat at night, why do they put a light in the fridge?",
         ]
 
+
+
 class JokeIntentHandler(AbstractRequestHandler):
     """Handler for Skill Launch."""
     def can_handle(self, handler_input):
@@ -50,7 +52,7 @@ class JokeIntentHandler(AbstractRequestHandler):
 
     def handle(self, handler_input):
         # type: (HandlerInput) -> Response
-        speak_output = "Here's a sample joke for you " \
+        speak_output = random.choice(jokes)
                        
 
         return (
