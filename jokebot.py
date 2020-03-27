@@ -33,13 +33,23 @@ class LaunchRequestHandler(AbstractRequestHandler):
         )
 
     jokes = [
-        "Did you hear about the semi-colon that broke the law? He was given two consecutive sentences.",
-        "I ate a clock yesterday, it was very time-consuming.",
-        "I've just written a song about tortillas; actually, it's more of a rap.",
-        "I woke up this morning and forgot which side the sun rises from, then it dawned on me.",
-        "I recently decided to sell my vacuum cleaner as all it was doing was gathering dust.",
-        "If you shouldn't eat at night, why do they put a light in the fridge?",
-        ]
+            " How does Moses make coffee? Hebrews it!"
+            "I’m super friendly with 25 letters of the alphabet. I just don’t know why."
+            "Did you hear about the guy whose whole left side was cut off? He’s all right now."
+            "How many tickles does it take to make an octopus laugh? 10-tickles."
+            "My leaf blower doesn’t work. It just sucks!"
+            "How does an attorney sleep? First he lies on one side, then he lies on the other."
+            "How do you invite a dinosaur for lunch? Tea, Rex?"
+            "What do you call a dinosaur with one eye? A do-you-think-he-saur-us."
+            "Is your iPad making you fall asleep? I can help—there’s a nap for that."
+            "There was a kidnapping at school yesterday. Don’t worry, though—he woke up."
+            "What do you call a girl with an hourglass figure? A complete waist of time."
+            "I knew a mathematician who couldn’t afford lunch. He could binomial."
+            "What did the mermaid wear to math class? An algae-bra."
+            "What do you call a turtle who takes up photography? A snapping turtle."
+            "You know what really bugs me? Insect puns."
+            
+           ]
 
 
 
